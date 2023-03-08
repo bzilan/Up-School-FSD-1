@@ -8,6 +8,8 @@ using UpSchool.Domain.Services;
 using UpSchool.Wasm;
 using UpSchool.Wasm.Services;
 
+
+
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
 
 var titanicFluteApiUrl = builder.Configuration.GetConnectionString("TitanicFlute");
